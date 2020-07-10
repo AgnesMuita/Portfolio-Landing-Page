@@ -12,6 +12,15 @@ body{
     display:flex;
     padding: 20px;
 }
+.about h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size:40px;
+    text-align: center;
+}
+.about p {
+    text-align: center;
+}
 .box h1 {
     color: rgb(67, 67, 194);
     font-size:70px;
@@ -27,4 +36,6 @@ img {
 }
 .headers {
     color: red;
+    text-align: center;
 }
+
