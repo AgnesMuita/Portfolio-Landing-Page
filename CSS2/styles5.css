@@ -10,6 +10,7 @@ body{
     box-sizing: border-box;
     border-radius: 4px;
     display:flex;
+    padding: 20px;
 }
 .box h1 {
     color: rgb(67, 67, 194);
