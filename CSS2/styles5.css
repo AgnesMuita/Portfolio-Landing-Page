@@ -2,6 +2,7 @@ body{
     margin:0;
     padding:0;
     font-size:20px;
+    color: rgb(10, 10, 1)
 }
 .box {
     position: absolute:
@@ -12,14 +13,9 @@ body{
     display:flex;
     padding: 20px;
 }
-.about h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
-    font-size:40px;
-    text-align: center;
-}
 .about p {
     text-align: center;
+    font-size: 40px;
 }
 .box h1 {
     color: rgb(67, 67, 194);
@@ -31,8 +27,8 @@ body{
     font-style: normal;
 }
 img {
-    width:800px;
-    height:600px;
+    width:600px;
+    height:500px;
 }
 .headers {
     color: red;
