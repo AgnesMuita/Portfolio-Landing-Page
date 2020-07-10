@@ -1,10 +1,15 @@
 h1 {
     color: rgb(67, 67, 194);
-}
+    font-size:70px;
+    float: right;
 body {
-    font-size: 20px;
+    font-size: 30px;
 }
 .Background {
     font-family:'Times New Roman', Times, serif;
     font-style: normal;
+}
+img {
+    width:800px;
+    height:600px;
 }
