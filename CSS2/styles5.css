@@ -19,7 +19,7 @@ img {
     height:500px;
 }
 .box h1 {
-    color: rgb(67, 67, 194);
+    color: rgb(100, 100, 177);
     font-size:70px;
     float: right;
 }
@@ -42,7 +42,7 @@ img {
 }
 .interests {
     font-style: italic;
-    color: blue;
+    color: rgb(69, 69, 139);
 }
 .hobbies-and-interests {
     width: 200px;
