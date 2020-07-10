@@ -1,11 +1,12 @@
 body{
     margin:0;
+    margin-top:0;
     padding:0;
     font-size:20px;
-    color: rgb(10, 10, 1)
+    color: rgb(10, 10, 1);
 }
 .box {
-    position: absolute:
+    float: initial;
     top: 50%;
     left: 50%;
     box-sizing: border-box;
@@ -13,29 +14,39 @@ body{
     display:flex;
     padding: 20px;
 }
-.about p {
-    text-align: center;
-    font-size: 40px;
+img {
+    width:600px;
+    height:500px;
 }
 .box h1 {
     color: rgb(67, 67, 194);
     font-size:70px;
     float: right;
 }
-.interests {
-    font-style: italic;
-    color: blue;
+.about p {
+    text-align: center;
+    font-size: 40px;
 }
-.Background {
-    font-family:'Times New Roman', Times, serif;
-    font-style: normal;
-}
-img {
-    width:600px;
-    height:500px;
+.columns {
+    column-count: 3;
+    column-width: 250px;
+    column-gap: 2em;
 }
 .headers {
     color: rgb(84, 84, 128);
     text-align: center;
 }
+.Background {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.interests {
+    font-style: italic;
+    color: blue;
+}
+.hobbies-and-interests {
+    width: 200px;
+    height: 200px;
+}
+
 
